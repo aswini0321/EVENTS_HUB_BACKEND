@@ -11,9 +11,10 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "App.js",
-  "scripts": {
-   "start": "nodemon App.js"
-  },
+   "scripts": {
+  "postinstall": "chmod +x ./node_modules/.bin/*",
+  "start": "nodemon App.js"
+},
   "author": "",
   "license": "ISC",
   "description": ""

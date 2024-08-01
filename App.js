@@ -3,7 +3,7 @@ const express = require("express");
 const bodyparser = require("body-parser");
 const mongoose = require("mongoose");
 const cors = require('cors');
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const saltRounds = 10;
 const app = express();
 const DB_URI="mongodb+srv://lokeswararaodumpala2004:1IaYdSWsAlPSuQW2@cluster0.eurlp56.mongodb.net/Team_Info_DB?retryWrites=true&w=majority";
